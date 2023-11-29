@@ -37,7 +37,14 @@ function Bio() {
                     <img src="./img/bg-mk.png" />
                 </div>
                 <div className="resume-btn">
-                    <button>Resume</button>
+                    <button>
+                        <a
+                            href="./img/mk_resume.pdf"
+                            download="Mohamed Karam Resume.pdf"
+                        >
+                            Resume
+                        </a>
+                    </button>
                     <button>
                         <a href="#contact">Say Hello!</a>
                     </button>
